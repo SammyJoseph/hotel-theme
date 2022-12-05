@@ -88,6 +88,7 @@ class ATR_Master{
         $this->atr_cpt          = new ATR_CPT();
         $this->atr_metaboxes    = new ATR_Metaboxes();
         $this->atr_database     = new ATR_Database();
+        $this->atr_cmb2         = new ATR_CMB2();
     }
 
     private function definir_admin_hooks(){
