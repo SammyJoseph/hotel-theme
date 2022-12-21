@@ -12,9 +12,10 @@ class ATR_CMB2{
 
         // Iniciando la metacaja
         $cmb = new_cmb2_box(array(
-            'id'            => 'test_metabox',
+            'id'            => 'pagina_inicio',
             'title'         => __('Test Metabox', 'cmb2'),
             'object_types'  => array('page',), //post type
+            'show_on'       => array('key' => 'id', 'value' => array(17)),
             'context'       => 'normal',
             'priority'      => 'high',
             'show_names'    => true, //show field names on the left
