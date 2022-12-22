@@ -35,7 +35,7 @@ class ATR_CMB2{
         $cmb->add_field( array(
             'name'              => 'Imagenes Carrusel',
             'desc'              => 'Aquí pondremos las imágenes para crear el slider',
-            'id'                => 'img_list_carrousel',
+            'id'                => 'img_list_carousel',
             'type'              => 'file_list',
             'preview_size'      => array( 100, 100 ), // Default: array( 50, 50 )
             'query_args'        => array( 'type' => 'image' ), // Only images attachment

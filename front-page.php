@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php get_template_part('public/partials/frontpage', 'carrousel') ?>
+<?php get_template_part('public/partials/frontpage', 'carousel') ?>
 
 <div class="container">
     <div class="row">

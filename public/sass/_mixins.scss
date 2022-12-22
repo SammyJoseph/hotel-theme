@@ -1,0 +1,4 @@
+@mixin breakpoint($consulta){
+    $media-xs: "(max-width: 575.98px)"; // móvil
+    $media-sm: "(min-width: 576px) and (max-width: 767.98px)"; // tablet
+}

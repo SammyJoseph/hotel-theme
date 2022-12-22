@@ -1,5 +1,5 @@
 @import 'variables';
-
+@import 'mixins';
 
 .pw-bg-color{
     background-color: $color_menu; //#000 del archivo _variables.scss
@@ -58,5 +58,23 @@
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+}
+
+.home{
+    #sliderHome{
+        .carousel-item{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            min-height: 90vh;
+            &::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 90vh;
+                background-color: rgba(#000000, $alpha:0.3);
+            }
+        }
     }
 }
