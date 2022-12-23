@@ -9,7 +9,7 @@ $images = get_post_meta(get_the_ID(), 'img_list_carousel', true);
 
     <?php 
         $count = 0;
-        foreach ($images as $img) {
+        foreach ($images as $imagen) {
             $classActive = ($count == 0 ? 'active' : ''); //si el contador es 0, es el primer elemento (darle la clase active para BS5)
             $output = "
                 <div class='carousel-item $classActive' style='background-image: url($imagen)'>
